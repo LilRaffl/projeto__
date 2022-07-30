@@ -18,6 +18,7 @@
             android:layout_width="194dp"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
+            android:id="@+id/cardHardware"
             app:cardBackgroundColor="#8F0C65EA">
 
             <LinearLayout
@@ -30,8 +31,6 @@
                     android:layout_height="150dp"
                     android:scaleType="centerInside"
                     android:src="@drawable/image"
-
-
                     />
 
                 <TextView
@@ -54,6 +53,7 @@
         <androidx.cardview.widget.CardView
 
             android:layout_width="190dp"
+            android:id="@+id/cardPerfil"
             android:layout_height="227dp"
             android:layout_margin="5dp"
             app:cardBackgroundColor="#D32F2F">
@@ -96,6 +96,7 @@
             android:layout_width="194dp"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
+            android:id="@+id/cardSobre"
             app:cardBackgroundColor="#8F0C65EA">
 
             <LinearLayout
@@ -137,13 +138,16 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:id="@+id/cardCatalog">
 
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="150dp"
                     android:scaleType="centerInside"
-                    android:src="@drawable/profile" />
+                    android:src="@drawable/profile"
+
+                    />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -151,7 +155,7 @@
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="10sp"
                     android:fontFamily="serif-monospace"
-                    android:text="Perfil"
+                    android:text="Catalogo"
                     android:textColor="#FFF"
                     android:textSize="30sp"
                     android:textStyle="bold" />
